@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="parentClass" class="com.citi.MySpring.Inheritance.ChildClass"
+		abstract="true">
+		<property name="fatherName" value="RAM"></property>
+		<property name="motherName" value="SITA"></property>
+	</bean>
+
+	<bean id="student1" class="com.citi.MySpring.Inheritance.ChildClass"
+		parent="parentClass">
+		<property name="studentID" value="111"></property>
+		<property name="studentName" value="studentLava"></property>
+	</bean>
+
+	<bean id="student2" class="com.citi.MySpring.Inheritance.ChildClass"
+		parent="parentClass">
+		<property name="studentID" value="222"></property>
+		<property name="studentName" value="StudentKusa"></property>
+	</bean>
+
+</beans>
