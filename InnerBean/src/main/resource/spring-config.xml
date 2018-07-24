@@ -14,7 +14,7 @@
 				<property name="city" value="hyderabad"></property>
 				<property name="state" value="telagana"></property>
 			</bean>
-		</property>
+		</property> 
 	</bean>
 
 	<bean id="Person2" class="com.citi.MySpring.InnerBean.Person">
