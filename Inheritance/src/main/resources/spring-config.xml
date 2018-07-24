@@ -21,6 +21,6 @@
 		parent="parentClass">
 		<property name="studentID" value="222"></property>
 		<property name="studentName" value="StudentKusa"></property>
-	</bean>
+	</bean> 
 
 </beans>
